@@ -1,0 +1,171 @@
+.training {
+    width: 100%;
+    /* margin: 0.1rem 0; */
+    display: grid;
+    background: #f2f6f7;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    
+}
+
+.training .left {
+    text-align: center;
+    margin: auto;
+    padding: 1rem 4rem;
+    max-width: 600px;
+    color: #332e62;
+}
+
+.training .left p {
+    margin: 1.2rem 0;
+    color: #332e62;
+}
+
+.training .left h1 {
+    margin: 1.2rem 0;
+    color: #332e62;
+}
+
+.training .right {
+    width: 100%;
+}
+
+.right .img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.right .img {
+    max-width: 60%;
+    border: 1px solid #333;
+}
+
+.right .top {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+
+.right .bottom {
+    grid-column: 4/ -1; 
+    grid-row: 1;
+    z-index: 5;
+}
+
+/* second part */
+
+.training .s_right {
+    text-align: center;
+    margin: auto;
+    padding: 1rem 4rem;
+    max-width: 600px;
+}
+
+.training .s_right p {
+    margin: 1.2rem 0;
+    color: #332e62;
+}
+
+.training .s_right h1 {
+    margin: 1.2rem 0;
+    color: #332e62;
+}
+
+.training .s_left {
+    width: 100%;
+}
+
+.s_left .img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.s_left .img {
+    max-width: 60%;
+    border: 1px solid #333;
+}
+
+.s_left .top {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+
+.s_left .bottom {
+    grid-column: 4/ -1; 
+    grid-row: 1;
+    z-index: 5;
+}
+
+/* third div */
+
+.training .t_left {
+    text-align: center;
+    margin: auto;
+    padding: 1rem 4rem;
+    max-width: 600px;
+}
+
+.training .t_left p {
+    margin: 1.2rem 0;
+    color: #332e62;
+}
+
+.training .t_left h1 {
+    margin: 1.2rem 0;
+    color: #332e62;
+}
+
+.training .t_right {
+    width: 100%;
+}
+
+.t_right .img-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+.t_right .img {
+    max-width: 60%;
+    border: 1px solid #333;
+}
+
+.t_right .top {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 6;
+}
+
+.t_right .bottom {
+    grid-column: 4/ -1; 
+    grid-row: 1;
+    z-index: 5;
+}
+
+@media screen and (max-width: 1140px) {
+    .training {
+        grid-template-columns: 1fr;
+    }
+
+    .training .img {
+        max-width: 80%;
+    }
+
+}
+
+
+
+
+

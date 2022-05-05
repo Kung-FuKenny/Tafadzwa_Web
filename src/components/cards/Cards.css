@@ -1,0 +1,38 @@
+.focus h1 {
+    text-align: center;
+    display: block;
+    font-size: 2.3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color: #332e62;
+}
+
+
+.focus-grid {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+    width: 100%;
+    padding: 6rem 1rem;
+    position: relative;
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .focus Card {
+    border: 1px solid #eee;
+    color: #eee;
+    background-color: #1c183d
+  }
+  
+  .focus Card.Body {
+    border: 1px solid #eee;
+    color: #eee;
+    background-color: #1c183dcc
+  }
