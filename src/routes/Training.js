@@ -20,7 +20,7 @@ const Training = () => {
             {/* <Faq /> */}
             <Cards />
             <MultiItemCarousel />
-            <Count />
+            {/* <Count /> */}
             <Footernew />
         </div>
     )
