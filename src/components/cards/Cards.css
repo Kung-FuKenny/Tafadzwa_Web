@@ -10,13 +10,30 @@
     color: #332e62;
 }
 
+.focus h5 {
+  display: block;
+  font-size: 1em;
+  font-weight: 10px;
+  color: #332e62;
+   max-width: 60%;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px; 
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 1rem 4rem;
+  overflow-wrap: normal;
+}
+
 
 .focus-grid {
     display: flex;
     align-items: flex-start;
     margin-bottom: 2rem;
     width: 100%;
-    padding: 6rem 1rem;
+    padding: 2rem 1rem;
     position: relative;
     max-width: 1140px;
     margin: auto;
