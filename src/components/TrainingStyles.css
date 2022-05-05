@@ -8,6 +8,11 @@
     
 }
 
+{
+
+
+}
+
 .training .left {
     text-align: center;
     margin: auto;
@@ -21,6 +26,15 @@
     color: #332e62;
 }
 
+.training .left button {
+    padding: 12px 32px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    background: #332e62cd;
+    color: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+}
 .training .left h1 {
     margin: 1.2rem 0;
     color: #332e62;

@@ -14,7 +14,7 @@ const Training = () => {
     return (
         <div>
             <Navbar />
-            <HeroImage heading='About Us' text=' Performance and productivity for our clients' />
+            <HeroImage heading='About Us' text='We are a certified Private Employment Agency.' />
             <TrainingSection />
             <Features/>
             {/* <Faq /> */}

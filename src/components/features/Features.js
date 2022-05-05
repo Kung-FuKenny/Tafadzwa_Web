@@ -19,10 +19,9 @@ const Features = () => {
       <div className="container-features">
         <div className="title-2" data-aos="fade-up">
         {/* <BsFillBookmarkStarFill color="#332e62" size={25} /> */}
-          <h2>What Do We Do?</h2>
-          <p className="u-text-small">
-          Strategy Development, Implementation and Integration Strategy is the scope of an organisation over the long-term: which achieves advantage for the organisation through its configuration of resources to fulfil stakeholder expectations.
-          </p>
+          <h2>Do We Do?</h2>
+          {/* <p className="u-text-small">
+          </p> */}
         </div>
         <div className="features-content">
           <div className="features-left" data-aos="fade-right">

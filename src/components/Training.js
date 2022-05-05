@@ -15,7 +15,7 @@ const Training = () => {
         <div className='training'>
             <div className='left'>
                 <h1>History</h1>
-                <p>Tafadzwa Consulting was sucessfully established in 2004 to bring together professionals dedicated to share common values of making a remarkable difference in the industry, offering all elements of our services into creating robust solution.</p>
+                <p>Tafadzwa Consulting is a fully Federation of African Professional Staffing Organisations (APSO) accredited company that was sucessfully established in 2004. We bring together professionals dedicated to share common values of making a remarkable difference in the industry, offering all elements of our services into creating robust solution.</p>
                 <Link to='/contact'><button className='btn'>Contact</button></Link>
             </div>
             <div className='right'>

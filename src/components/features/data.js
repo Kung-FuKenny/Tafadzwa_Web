@@ -6,26 +6,26 @@ export const FeatureList = [
   {
     id: 1,
     icon: <FaAccessibleIcon color="#4b4586" size={22} />,
-    heading: "Business Process Mapping",
-    text: "A business process illustration is produced. The first step in gaining control over an organization is to know and understand the basic processes."
+    heading: "Executive Search/Headhunting",
+    text: "We provide employment services on behalf of the employer. we help to find high executives and relocate them if they meet specific job requirements."
   },
   {
     id: 2,
     icon: <SiDatabricks color="#4b4586" size={22} />,
-    heading: "Job Evaluation and Grading",
-    text: "Job evaluation is performed to generate pay structure for a specific job to prevent pay discrimination inside the organization based on workforce expectations.",
+    heading: "Media Advertisements",
+    text: "There are many companies who offer services. This is why we advertise and use advertising media to reach to our clientbase, to help increase their market share.",
   },
   {
     id: 3,
     icon: <MdConnectWithoutContact color="#4b4586" size={22} />,
-    heading: "Employee Relations Consulting",
-    text: "We provide the best business partner and services to our client in all aspects related to labour relations. Building long-term relationships by providing efficient and effective services. ",
+    heading: "Response Handling",
+    text: "If our clients have difficulty forecasting the level of response a specific job posts or employement process, we are the best to assist with this to ease out the administration processes for our clients to have better leverage the management of potential employees.",
   },
   {
     id: 4,
     icon: <FaGg color="#4b4586" size={22} />,
-    heading: "Organisational Development",
-    text: "We see Organisational Development (OD) as the practice of changing people (human capital) and organizations for positive growth. It is also a planned process of developing an organization to be more effective in accomplishing its desired goals.",
+    heading: "Psychometric Assessments",
+    text: "With companies being extra vigilant about who to hire, we have a common practice in the hiring stage. our tests can be leveraged to impact every aspect of an employee’s recruitment, training, and leadership development life-cycle within the public and private sectors.",
   },
   // {
   //   id: 5,

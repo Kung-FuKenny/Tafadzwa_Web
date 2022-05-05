@@ -17,8 +17,8 @@ import { BsFillBookmarkStarFill } from "react-icons/bs";
 const Cards = () => {
     return (
         <div className="focus" data-aos="fade-up">
-            <h1>Our Industry Focus</h1>
-            <h5>We serve these various industries with great knowledge and expertise.</h5>
+            <h1>Our Best Served Industry Focus</h1>
+            {/* <h5>We serve these various industries with great knowledge and expertise.</h5> */}
             <div className="focus-grid">
                 {/* First Grid */}
                 <Card style={{ width: '18rem' }} data-aos="fade-left">
